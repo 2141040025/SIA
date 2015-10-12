@@ -1,10 +1,16 @@
-/*  = =  Fonts  = =  */
+/*================================================
+					FUENTES
+  ================================================*/
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900,500,300,200);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
-/*--- Bootstrap ---*/
+
+/*================================================
+					BOOTSTRAP
+  ================================================*/
+
 /*--tabs & accordions--*/
-/*-Background Color-*/
 .nav-tabs, .panel-heading{
 	background-color: #D1DADE;
 	border:none;}
@@ -48,7 +54,11 @@
 .panel-title > a.collapsed:after {
     content:"\f055";
     color:#8E9AA2;}
-/*--- Typography ---*/
+
+/*================================================
+					TIPOGRAFIA
+  ================================================*/
+
 h1,
 h2,
 h3,
@@ -108,7 +118,10 @@ p,
 /*Para numeros numericos como '.00' */
 .nn{font-size: 16px;line-height: 0px;position: relative;top:-9px;}
 
-/*--- Colors ---*/
+/*================================================
+					COLORES
+  ================================================*/
+
 /*Backgrounds*/
 .br{background-color:#F35958;}
 .bdg{background-color:#383838;}
@@ -127,7 +140,9 @@ p,
 .cy{color: #FAA652}
 .cg{color:#646D78;}
 
-/*--- Helper Classes ---*/
+/*================================================
+					CLASES DE AYUDA
+  ================================================*/
 /*Grid-Block*/
 .grid-title{background-color: white;padding: 2px 15px 0px 15px;margin:0px;height: 50px;line-height: 55px;}
 .grid-body{background-color: white;padding:15px 25px 15px 25px;min-height: 250px;}
@@ -237,6 +252,11 @@ p,
 .mar-lr-24 {margin:0px 24px}
 .mar-lr-30 {margin:0px 30px}
 .mar-lr-36 {margin:0px 36px}
+
+/*================================================
+					OTROS
+  ================================================*/
+
 /*Centra un blque en medio del #container*/
 .center-block{
 	position:absolute;
