@@ -1,0 +1,233 @@
+body,html{
+	background-color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+button{
+	background-color: transparent;
+	border:none;
+	padding: 0px;
+}
+
+ul, li{
+	list-style: none;
+}
+
+.active{
+	cursor: default;
+	background-color: #22262E;
+	border-left: 2px solid #EB974E;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = 
+                 SideBar Components
+ = = = = = = = = = = = = = = = = = = = = = = = */
+
+/*-------------------------------
+           H E A D E R
+---------------------------------*/
+#headerSide{
+	background-color:#22262E;
+	height: 55px;
+	line-height: 55px;
+}
+
+#headerSide > .logo{
+	display: inline-block;
+	margin: 0px 30px;
+}
+
+/*-------------------------------
+      U S E R  P O R F I L E
+---------------------------------*/
+#userSide{
+	text-align: center;
+	padding: 30px;
+	color: white;
+}
+#userSide > p{
+	font-family: 'Open Sans';
+}
+#userSide > .nombre{
+	font-size: 16px;
+}
+
+#userSide > .matricula {
+	color: #8F939E;
+	margin: -10px;
+	font-size: 12.5px;
+}
+
+/*-------------------------------
+        N A V I G A T I O N
+---------------------------------*/
+#navSide{
+	font-size: 14px;
+	padding: 0px;
+	margin:0px;
+
+}
+
+#navSide > li > p {
+	margin: 0px;
+	padding: 0px 13px;
+	font-family: 'Open Sans';
+	color:#8F939E;
+}
+
+#navSide > li > a {
+	padding: 4px 13px;
+	display:block;
+	color: white
+}
+
+#navSide > li > a:hover {
+	background-color: #33383E;
+	text-decoration: none;
+}
+
+/*-------------------------------
+          P R E V I E W
+---------------------------------*/
+#footSide{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	bottom:0px;
+	padding: 0px 13px;
+	background-color: #22262E;
+}
+
+
+#footSide > li > a{
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	color:white;
+}
+
+/*#footSide > a:hover{
+	background-color: #C6463D;
+}*/
+
+
+
+
+
+
+
+
+
+
+/* = = = = = = = = = = = = = = = = = = = = = = 
+               Page Content [Main]
+ = = = = = = = = = = = = = = = = = = = = = = = */
+
+/*-------------------------------
+           H E A D E R
+---------------------------------*/
+#principalHeader{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	padding: 0px 30px;
+	position: relative;
+}
+
+#principalHeader > a{
+	margin-right: 10px;
+	color: #505458;
+}
+
+/* [MenuBars] */
+#principalHeader > .menuBars{
+	text-decoration: none;
+	font-size: 20px;
+	color: #505458;
+}
+
+/* [HomeBtn] */
+#principalHeader > .homeBtn{
+	text-decoration: none;
+	font-size: 18.5px;
+	color: #505458;
+}
+
+/* [emailBtn] */
+#principalHeader > .emailBtn{
+	text-decoration: none;
+	font-size: 16.5px;
+	color: #505458;
+}
+
+
+
+
+/* [UserPorfile] */
+#principalHeader > .userInfo p, i, img{
+	font-size: 13px;
+	margin:0px;
+	display: inline-block;
+}
+#principalHeader > .userInfo i {
+	margin: 0px 10px 0px 3px;
+	font-size: 10px;
+}
+#principalHeader > .userInfo .dropdown-menu{
+	box-shadow: none;
+	border:none;
+	margin: 0px;
+	border-radius: 0px;
+	min-width: 180px;
+}
+
+
+/*-------------------------------
+         M S G W E L C O M E
+---------------------------------*/
+
+/* [MsgWelocme] */
+#msg-welcome{
+	padding: 15px 30px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#msg-welcome > p > i{
+	font-size: 11px;
+}
+
+#msg-welcome > div{
+	margin: auto;
+	margin: 90px 0px 70px 0px;
+	clear: fixed;
+}
+#msg-welcome > div > p{
+	width: 450px;
+	margin:auto;
+}
+
+/*-------------------------------
+          C O N T E N T
+---------------------------------*/
+
+.container-fluid{
+	background-color: white;
+	padding: 0px 30px;
+}
+
+.container-fluid > .carreraForm{
+	max-width: 900px;
+	margin: auto
+}
+
+.container-fluid > .carreraForm > .row [class*="col-"] {
+	padding: 0px;
+}
+
+.container-fluid > .carreraForm > .row > div > h4 {
+	margin: 2.8px;
+}
