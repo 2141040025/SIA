@@ -18,12 +18,19 @@ ul, li{
 a{
 	text-decoration: none;
 }
+
 .active{
 	cursor: default;
 	background-color: #22262E;
 	border-left: 2px solid #FAA652;
 }
-
+.print{
+	color: #0090D9;
+	font-size:20px;
+}
+.print:hover{
+	color: #0090D9
+}
 
 
 
