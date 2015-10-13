@@ -31,8 +31,6 @@ ul, li{
 
 
 
-
-
 /* = = = = = = = = = = = = = = = = = = = = = = 
                  SideBar Components
  = = = = = = = = = = = = = = = = = = = = = = = */
@@ -96,7 +94,7 @@ ul, li{
 }
 
 #navSide > li > a:hover {
-	background-color: #33383E;
+	background-color: #22262E;
 	text-decoration: none;
 }
 
@@ -252,9 +250,8 @@ ul, li{
 .container-fluid > .carreraForm > .row > div > h4 {
 	margin: 2.8px;
 }
-
+/*HoriarioTable*/
 .container-fluid > .HorarioTables{
-	max-width: 900px;
 	margin: auto
 
 }
@@ -269,4 +266,35 @@ ul, li{
 	text-align: center;	
 	font-size: 12px;
 
+}
+.container-fluid > .HorarioTables p{
+margin: 0px;
+
+}
+
+/*evaluacionText*/
+.container-fluid > .evaluacionText{
+	max-width: 800px;
+	margin: 0px auto 150px auto;
+}
+
+.container-fluid > .evaluacionText > img{
+	margin: 0px auto 35px auto;
+	display: block;
+}
+
+.container-fluid > .evaluacionText p{
+	text-align: justify;
+}
+
+.container-fluid > .evaluacionText a{
+	text-decoration: none;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FAA652;
+	color: white;
+	display: block;
+	margin: 35px auto;
 }
