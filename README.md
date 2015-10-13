@@ -1,6 +1,6 @@
-# ----------------------------
-# fer_ozz01@hotmail.com
-# ----------------------------
+----------------------------
+fer_ozz01@hotmail.com
+----------------------------
 
 
 # Este proyecto surge como una idea de remplazar la interface de usuario que tiene el sistema integral de información académica y administrativa (SIIAA) de la Universidad en la cual estoy estudiando. 
