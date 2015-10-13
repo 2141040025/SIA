@@ -2,7 +2,8 @@
 
 Fernando Saldaña  
 [Ver Proyecto en Github](http://2141040025.github.io/Sistema-de-Informacion-Academica/)  
-> Este proyecto **no pretende copiar, adueñarse, ni robar créditos** del sistema actual de la Universidad, sino es solo una **propuesta divertida** para el rediseño de su interface con el fin de mejorar la **experiencia del usuario** (estudiante) dentro del sistema.
+> Este proyecto **no pretende copiar, adueñarse, ni robar créditos** del sistema actual de la Universidad, sino es solo una **propuesta divertida** para el rediseño de su interface con el fin de mejorar la **experiencia del usuario** dentro del sistema.
 
+La razon .
 13 de Octubre del 2015  
 
