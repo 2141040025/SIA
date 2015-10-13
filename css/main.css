@@ -288,7 +288,7 @@ clear: both;
 /*HoriarioTable   /  planEstudioTable*/
 .container-fluid > .tablas{
 	max-width: 1000px;
-	margin: 0px auto 150px auto;
+	margin: 0px auto 100px auto;
 
 }
 .container-fluid > .tablas th{
