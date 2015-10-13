@@ -24,9 +24,6 @@ a{
 	background-color: #22262E;
 	border-left: 2px solid #FAA652;
 }
-.activeTab{
-	border-top: 4px solid #FAA652;
-}
 
 .print{
 	color: #0090D9;
@@ -269,7 +266,7 @@ clear: both;
 /*CarreraForm*/
 .container-fluid > .carreraForm{
 	max-width: 900px;
-	margin: 0px auto 150px auto;
+	margin: 0px auto 100px auto;
 }
 
 .container-fluid > .carreraForm > .row [class*="col-"] {
