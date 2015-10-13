@@ -24,6 +24,10 @@ a{
 	background-color: #22262E;
 	border-left: 2px solid #FAA652;
 }
+.activeTab{
+	border-top: 4px solid #FAA652;
+}
+
 .print{
 	color: #0090D9;
 	font-size:20px;
@@ -258,6 +262,10 @@ clear: both;
 	padding: 0px 30px;
 }
 
+
+
+
+
 /*CarreraForm*/
 .container-fluid > .carreraForm{
 	max-width: 900px;
@@ -271,27 +279,66 @@ clear: both;
 .container-fluid > .carreraForm > .row > div > h4 {
 	margin: 2.8px;
 }
-/*HoriarioTable*/
-.container-fluid > .HorarioTables{
-	margin: auto
+
+
+
+
+
+
+/*HoriarioTable   /  planEstudioTable*/
+.container-fluid > .tablas{
+	max-width: 1000px;
+	margin: 0px auto 150px auto;
 
 }
-.container-fluid > .HorarioTables th{
+.container-fluid > .tablas th{
 	padding: 2px;
 	text-align: center;
 	font-size: 16px;
 	font-weight: 300;
 
 }
-.container-fluid > .HorarioTables td{
+.container-fluid > .tablas td{
 	text-align: center;	
-	font-size: 12px;
+	font-size: 12.5px;
 
 }
-.container-fluid > .HorarioTables p{
-margin: 0px;
-
+.container-fluid > .tablas p{
+	margin:0px;
+	text-align: left;
 }
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+	background-color: #B3E293;
+	color:white;
+}
+
+.table-hover > tr{
+	background-color: #b3e293;
+	color: white;
+}
+
+
+
+
+.cuadrado{
+	margin-right: 10px;
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+.terminada{
+	background-color: #b3e293;
+	color: white;
+}
+
+.tomada{
+	background-color: #ed8d84;
+	color: white;
+}
+
+
+
 
 /*evaluacionText*/
 .container-fluid > .evaluacionText{
