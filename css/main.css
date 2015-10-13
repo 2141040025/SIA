@@ -269,7 +269,7 @@ clear: both;
 /*CarreraForm*/
 .container-fluid > .carreraForm{
 	max-width: 900px;
-	margin: auto
+	margin: 0px auto 150px auto;
 }
 
 .container-fluid > .carreraForm > .row [class*="col-"] {
