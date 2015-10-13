@@ -123,19 +123,19 @@ p,
   ================================================*/
 
 /*Backgrounds*/
+.bn{background-color: #FAA652;}
 .br{background-color:#F35958;}
 .bdg{background-color:#383838;}
 .bc{background-color:#F8F8EB;}
-.bm{background-color: #0AA699}
 .bb{background-color: #0090D9}
 .by{background-color: #FAA652}
 .bg{background-color: #646D78}
 /*Color[Text]*/
+.cn{color: #FAA652}
 .cr{color:#F45C51;}
 .cdg{color:#383838;}
 .cc{color:#F8F8EB;}
 .cw{color: #ffffff;}
-.cm{color:#0aa699;}
 .cb{color: #0090D9}
 .cy{color: #FAA652}
 .cg{color:#646D78;}

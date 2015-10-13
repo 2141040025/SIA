@@ -18,8 +18,20 @@ ul, li{
 .active{
 	cursor: default;
 	background-color: #22262E;
-	border-left: 2px solid #EB974E;
+	border-left: 2px solid #FAA652;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* = = = = = = = = = = = = = = = = = = = = = = 
                  SideBar Components
@@ -109,9 +121,17 @@ ul, li{
 	color:white;
 }
 
-/*#footSide > a:hover{
-	background-color: #C6463D;
-}*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -191,21 +211,21 @@ ul, li{
 ---------------------------------*/
 
 /* [MsgWelocme] */
-#msg-welcome{
+#landing{
 	padding: 15px 30px;
 	width: 100%;
 	background-color: #FFFFFF;
 }
-#msg-welcome > p > i{
+#landing > p > i{
 	font-size: 11px;
 }
 
-#msg-welcome > div{
+#landing > div{
 	margin: auto;
-	margin: 90px 0px 70px 0px;
+	margin: 75px 0px 50px 0px;
 	clear: fixed;
 }
-#msg-welcome > div > p{
+#landing > div > p{
 	width: 450px;
 	margin:auto;
 }
@@ -219,6 +239,7 @@ ul, li{
 	padding: 0px 30px;
 }
 
+/*CarreraForm*/
 .container-fluid > .carreraForm{
 	max-width: 900px;
 	margin: auto
@@ -230,4 +251,22 @@ ul, li{
 
 .container-fluid > .carreraForm > .row > div > h4 {
 	margin: 2.8px;
+}
+
+.container-fluid > .HorarioTables{
+	max-width: 900px;
+	margin: auto
+
+}
+.container-fluid > .HorarioTables th{
+	padding: 2px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+
+}
+.container-fluid > .HorarioTables td{
+	text-align: center;	
+	font-size: 12px;
+
 }
