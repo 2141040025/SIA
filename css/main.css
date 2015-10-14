@@ -239,9 +239,19 @@ a{
 
 #landing > div{
 	margin: auto;
-	margin: 75px 0px 50px 0px;
+	margin: 100px 0px 70px 0px;
 	clear: fixed;
 }
+
+/*Quitar margin a klos 768px*/
+@media only screen and (max-width: 768px) {
+	#landing > div{
+		margin: 0px 0px 50px 0px;
+	}
+}
+
+
+
 #landing > div > h1{
 clear: both;
 }
@@ -257,6 +267,7 @@ clear: both;
 .container-fluid{
 	background-color: white;
 	padding: 0px 30px;
+	margin-bottom: 60px;                /*Margin BOTTON*/
 }
 
 
@@ -266,7 +277,7 @@ clear: both;
 /*CarreraForm*/
 .container-fluid > .carreraForm{
 	max-width: 900px;
-	margin: 0px auto 100px auto;
+	margin: 0px auto 0px auto;
 }
 
 .container-fluid > .carreraForm > .row [class*="col-"] {
@@ -285,7 +296,7 @@ clear: both;
 /*HoriarioTable   /  planEstudioTable*/
 .container-fluid > .tablas{
 	max-width: 1000px;
-	margin: 0px auto 150px auto;
+	margin: 0px auto 0px auto;
 
 }
 .container-fluid > .tablas th{
@@ -340,7 +351,7 @@ clear: both;
 /*evaluacionText*/
 .container-fluid > .evaluacionText{
 	max-width: 800px;
-	margin: 0px auto 150px auto;
+	margin: 0px auto 0px auto;
 }
 
 .container-fluid > .evaluacionText > img{
