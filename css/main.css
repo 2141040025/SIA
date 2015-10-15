@@ -2,6 +2,13 @@ body,html{
 	background-color: #FFFFFF;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+	
+	/*Por razones de UX*/
+	-webkit-user-select: none;
+    	-moz-user-select: none;
+	-khtml-user-select: none;
+    	-ms-user-select:none;
+	
 
 }
 
