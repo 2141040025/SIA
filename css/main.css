@@ -266,8 +266,8 @@ clear: both;
 
 .container-fluid{
 	background-color: white;
-	padding: 0px 30px;
-	margin-bottom: 60px;                /*Margin BOTTON*/
+	padding: 0px 30px 50px 30px;
+                /*Margin BOTTON*/
 }
 
 
