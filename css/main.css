@@ -111,6 +111,7 @@ Rojo: ED8D84;
 }
 
 #navSide > li > a {
+	font-weight:300;
 	padding: 4px 13px;
 	display:block;
 	color: white
