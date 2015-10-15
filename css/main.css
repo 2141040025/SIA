@@ -248,6 +248,9 @@ a{
 	#landing > div{
 		margin: 0px 0px 50px 0px;
 	}
+	#headerSide{
+		display: none;
+	}
 }
 
 
