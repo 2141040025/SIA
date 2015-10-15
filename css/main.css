@@ -83,6 +83,7 @@ Rojo: ED8D84;
 	font-family: 'Open Sans';
 }
 #userSide > .nombre{
+	font-weight:300;
 	font-size: 16px;
 }
 
