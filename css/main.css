@@ -22,7 +22,7 @@ a{
 .active{
 	cursor: default;
 	background-color: #22262E;
-	border-left: 2px solid #FAA652;
+	border-left: 2px solid #f9b775;
 }
 
 .print{
@@ -34,10 +34,14 @@ a{
 }
 
 
+/*
 
+Verde: B3E283;
+Azul: a4b3d6;
+Naranja: f9b775;
+Rojo: ED8D84;
 
-
-
+*/
 
 
 
@@ -110,7 +114,7 @@ a{
 }
 
 /*-------------------------------
-          P R E V I E W
+          F O O T E R
 ---------------------------------*/
 #footSide{
 	width: 200px;
@@ -125,18 +129,17 @@ a{
 #footSide > .fastnav{
 	text-align: center;
 }
+
 #footSide > .fastnav > a {
-	margin: 0px 7px;
+	margin: 0px 10px;
 	display: inline;
 	cursor: pointer;
-	color: white;
-
+	color: #5d5f60;
 }
 
 .btn:hover{
 	color: white;
 }
-
 
 
 
@@ -224,10 +227,10 @@ a{
 
 
 /*-------------------------------
-         M S G W E L C O M E
+         L A N D I N G
 ---------------------------------*/
 
-/* [MsgWelocme] */
+/* [Landing] */
 #landing{
 	padding: 15px 30px;
 	width: 100%;
@@ -238,20 +241,10 @@ a{
 }
 
 #landing > div{
-	margin: auto;
-	margin: 100px 0px 70px 0px;
+	margin: 100px auto 50px auto;
 	clear: fixed;
 }
 
-/*Quitar margin a klos 768px*/
-@media only screen and (max-width: 768px) {
-	#landing > div{
-		margin: 0px 0px 50px 0px;
-	}
-	#headerSide{
-		display: none;
-	}
-}
 
 
 
@@ -259,7 +252,7 @@ a{
 clear: both;
 }
 #landing > div > p{
-	max-width: 600px;
+	max-width: 700px;
 	margin:auto;
 }
 
@@ -279,8 +272,11 @@ clear: both;
 
 /*CarreraForm*/
 .container-fluid > .carreraForm{
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0px auto 0px auto;
+	padding: 2px;
+	font-size: 16px;
+	font-weight: 300;
 }
 
 .container-fluid > .carreraForm > .row [class*="col-"] {
@@ -301,6 +297,7 @@ clear: both;
 	max-width: 1000px;
 	margin: 0px auto 0px auto;
 
+
 }
 .container-fluid > .tablas th{
 	padding: 2px;
@@ -311,21 +308,17 @@ clear: both;
 }
 .container-fluid > .tablas td{
 	text-align: center;	
-	font-size: 12.5px;
+	font-size: 13px;
 
-}
-.container-fluid > .tablas p{
-	margin:0px;
-	text-align: left;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-	background-color: #B3E293;
+	background-color: #a4b3d6;
 	color:white;
 }
 
 .table-hover > tr{
-	background-color: #b3e293;
+	background-color: #a4b3d6;
 	color: white;
 }
 
@@ -339,7 +332,7 @@ clear: both;
 	float: left;
 }
 .terminada{
-	background-color: #b3e293;
+	background-color: #a4b3d6;
 	color: white;
 }
 
@@ -372,8 +365,29 @@ clear: both;
 	width: 150px;
 	height: 30px;
 	line-height: 30px;
-	background-color: #FAA652;
+	background-color: #f9b775;
 	color: white;
 	display: block;
 	margin: 35px auto;
 }
+
+
+
+
+
+
+/*-----------------------------------------------------------------------*/
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#landing > div{
+		margin: 0px 0px 10px 0px;
+	}
+	#headerSide{
+		display: none;
+	}
+}
+
+
+/*-----------------------------------------------------------------------*/
