@@ -28,7 +28,7 @@ a{
 
 .active{
 	cursor: default;
-	background-color: #22262E;
+	background-color: #2C2F35;
 	border-left: 2px solid #f9b775;
 }
 
@@ -61,7 +61,7 @@ Rojo: ED8D84;
            H E A D E R
 ---------------------------------*/
 #headerSide{
-	background-color:#22262E;
+	background-color:#2C2F35;
 	height: 55px;
 	line-height: 55px;
 }
@@ -118,7 +118,7 @@ Rojo: ED8D84;
 }
 
 #navSide > li > a:hover {
-	background-color: #22262E;
+	background-color: #2C2F35;
 	text-decoration: none;
 }
 
@@ -132,7 +132,7 @@ Rojo: ED8D84;
 	position: absolute;
 	bottom:0px;
 	padding: 0px 15px;
-	background-color: #22262E;
+	background-color: #2C2F35;
 }
 
 #footSide > .fastnav{
