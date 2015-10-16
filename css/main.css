@@ -3,12 +3,12 @@ body,html{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	
-
 	/*Por razones de UX*/
 	-webkit-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -ms-user-select:none;
+    	-moz-user-select: none;
+	-khtml-user-select: none;
+    	-ms-user-select:none;
+	
 
 }
 
@@ -28,7 +28,7 @@ a{
 
 .active{
 	cursor: default;
-	background-color: #2c2f35;
+	background-color: #22262E;
 	border-left: 2px solid #f9b775;
 }
 
@@ -50,21 +50,7 @@ Rojo: ED8D84;
 
 */
 
-.tour-backdrop {
-  z-index: 98;
-}
 
-.tour-step-backdrop {
-  z-index: 99;
-}
-
-.tour-step-background {
-  z-index: 98;
-}
-
-.popover[class*="tour-"] {
-  z-index: 98;
-}
 
 
 /* = = = = = = = = = = = = = = = = = = = = = = 
@@ -75,7 +61,7 @@ Rojo: ED8D84;
            H E A D E R
 ---------------------------------*/
 #headerSide{
-	background-color:#2c2f35;
+	background-color:#22262E;
 	height: 55px;
 	line-height: 55px;
 }
@@ -132,7 +118,7 @@ Rojo: ED8D84;
 }
 
 #navSide > li > a:hover {
-	background-color: #2c2f35;
+	background-color: #22262E;
 	text-decoration: none;
 }
 
@@ -146,7 +132,7 @@ Rojo: ED8D84;
 	position: absolute;
 	bottom:0px;
 	padding: 0px 15px;
-	background-color: #2c2f35;
+	background-color: #22262E;
 }
 
 #footSide > .fastnav{
@@ -272,13 +258,12 @@ Rojo: ED8D84;
 
 
 #landing > div > h1{
-	clear: both;
+clear: both;
 }
 #landing > div > p{
 	max-width: 700px;
 	margin:auto;
 }
-
 
 /*-------------------------------
           C O N T E N T
