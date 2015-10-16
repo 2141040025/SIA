@@ -33,19 +33,19 @@ var tour = new Tour({
   },
   {
     element: ".tour-005",
-    title: "Menu Desplegable,
+    title: "Menu Desplegable",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     placement: "bottom"
   },
   {
     element: ".tour-006",
-    title: "Información de la Pagina,
+    title: "Información de la Pagina",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     placement: "top"
   },
   {
-    element: ".tour-006",
-    title: "Contenido de la Pagina,
+    element: ".tour-007",
+    title: "Contenido de la Pagina",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     placement: "top"
   },  
