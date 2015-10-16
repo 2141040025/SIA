@@ -46,7 +46,7 @@ var tour = new Tour({
   {
     element: ".tour-007",
     title: "Contenido de la Pagina",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo illum, omnis natus eius nobis, veritatis itaque, totam officia ex adipisci alias asperiores dolor voluptas velit dignissimos laudantium rerum quod atque.",
     placement: "top"
   },  
 ]});
