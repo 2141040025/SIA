@@ -2,13 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Sistema Integral de Información Académica y Administrativa</title>
+    <title>Sistema de Información Académica y Administrativa</title>
     <!-- = = = Viewport = = = -->    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- = = = FAVICON = = = -->
     <link rel="shortcut icon" href="img/favicon.jpg">
     <!-- = = = = CSS = = = = -->
     <link rel="stylesheet"    href="css/bootstrap.min.css">
+    <link rel="stylesheet"    href="css/bootstrap-tour.min.css">
     <link rel="stylesheet"    href="css/font-awesome.min.css">
     <link rel="stylesheet"    href="css/lightbox.css">
     <link rel="stylesheet"    href="css/sidebar.css">
@@ -36,7 +37,7 @@
 
                     <!-- [ Porfile ] -->                            
                 <div id="userSide">
-                    <a href="img/thumb.jpg" data-lightbox="perfil" data-title="LUIS FERNANDO SALDAÑA CARVAJAL">
+                    <a href="img/thumb.jpg" data-lightbox="perfil">
                         <img class="img-circle mar-b-6" src="img/thumb.jpg" width="90" height="90">
                     </a>
                     <p class="nombre">Fernando Saldaña</p>
@@ -46,7 +47,6 @@
                     <!-- [ Navigation ] -->                            
                 <ul id="navSide">
                     <li><p class="fb">PRINCIPAL</p></li>                  
-                    <li><a href="">Mis Datos <i class="fa fa-angle-right pull-right"></i></a></li>
                     <li><a class="active">Plan de Estudios</a></li>
                     <li><a href="">Kardéx <i class="fa fa-angle-right pull-right"></i></a></li>
                     <li><a href="">Mis Grupos <i class="fa fa-angle-right pull-right"></i></a></li>
@@ -60,8 +60,7 @@
                     <!-- [ Vista Previa / Terminos de uso] -->
                 <div id="footSide" class="hidden-xs">
                     <div class="fastnav pull-right">
-                        <a class="terminoUso" data-toggle="modal" data-target="#condicionesUso"><i class="fa fa-info-circle"></i></a>
-                        <a class="playTour"><i class="fa fa-play-circle"></i></a>                        
+                        <a class="terminoUso" data-toggle="modal" data-target="#condicionesUso"><i class="fa fa-info-circle"></i></a>                      
                     </div>
                 </div>                   
 
@@ -70,7 +69,7 @@
 
                 <!-- Modal TERMINOS DE USO -->
                 <div class="modal fade" id="condicionesUso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                  <div class="modal-dialog" role="document">
+                  <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -154,7 +153,10 @@
                                 <p class="nombre">Fernando Saldaña <i class="fa fa-chevron-down"></i></p>
                             </button>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href=""><i class="fa fa-question"></i> FAQ</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href=""><i class="fa fa-file-text-o"></i>Mis Datos</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href=""><i class="fa fa-sign-out"></i> Cerrar Sesión</a></li>
                             </ul>
@@ -681,7 +683,12 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightbox.min.js"></script>
-<script src="js/tour.js"></script>
+
+
+
+
+
+
 <!-- Menu Toggle Script -->
 <script>
 $("#menu-toggle").click(function(e) {
@@ -689,16 +696,7 @@ $("#menu-toggle").click(function(e) {
     $("#wrapper").toggleClass("toggled");
  });
 </script>
-<!-- ToolTips Script -->
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-});
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
-</script>                       
+                      
 </body>
 </body>
 </html>
