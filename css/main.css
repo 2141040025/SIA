@@ -1,3 +1,13 @@
+/*
+
+Verde: B3E283;
+Azul: a4b3d6;
+Naranja: f9b775;
+Rojo: ED8D84;
+
+*/
+
+
 body,html{
 	background-color: #FFFFFF;
 	font-size: 16px;
@@ -5,9 +15,9 @@ body,html{
 	
 	/*Por razones de UX*/
 	-webkit-user-select: none;
-    	-moz-user-select: none;
+    -moz-user-select: none;
 	-khtml-user-select: none;
-    	-ms-user-select:none;
+    -ms-user-select:none;
 	
 
 }
@@ -36,19 +46,12 @@ a{
 	color: #0090D9;
 	font-size:20px;
 }
+
 .print:hover{
 	color: #0090D9
 }
 
 
-/*
-
-Verde: B3E283;
-Azul: a4b3d6;
-Naranja: f9b775;
-Rojo: ED8D84;
-
-*/
 
 
 
@@ -258,7 +261,7 @@ Rojo: ED8D84;
 
 
 #landing > div > h1{
-clear: both;
+	clear: both;
 }
 #landing > div > p{
 	max-width: 700px;
@@ -275,14 +278,18 @@ clear: both;
 .container-fluid{
 	background-color: white;
 	padding: 0px 30px 50px 30px;
-                /*Margin BOTTON*/
 }
 
 
 
 
 
-/*CarreraForm*/
+
+
+
+/*------------------------------------------*/
+/* INDEX */
+/*CarreraForm */
 .container-fluid > .carreraForm{
 	max-width: 1000px;
 	margin: 0px auto 0px auto;
@@ -304,7 +311,15 @@ clear: both;
 
 
 
-/*HoriarioTable   /  planEstudioTable*/
+
+
+
+
+
+
+/*------------------------------------------*/
+/*HORARIO Y PLAN DE ESTUDIO*/
+/*HoriarioTable  planEstudioTable*/
 .container-fluid > .tablas{
 	max-width: 1000px;
 	margin: 0px auto 0px auto;
@@ -356,9 +371,14 @@ clear: both;
 
 
 
+
+
+
+/*------------------------------------------*/
+/*EVALUACION DOCENTE*/
 /*evaluacionText*/
 .container-fluid > .evaluacionText{
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0px auto 0px auto;
 }
 
@@ -387,6 +407,26 @@ clear: both;
 
 
 
+
+
+
+/*------------------------------------------*/
+/*MIS DATOS*/
+/*form*/
+.container-fluid > form{
+	max-width: 1000px;
+	margin: 0px auto 0px auto;
+}
+.container-fluid > form > .form-group > div{
+
+}
+.container-fluid > form > .form-group > div > label{
+	font-weight: 300;
+}
+.container-fluid > form > .form-group > div > .obli{
+	color: #ED8D84;
+	font-style: italic;
+}
 
 /*-----------------------------------------------------------------------*/
 

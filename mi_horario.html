@@ -8,8 +8,7 @@
     <!-- = = = FAVICON = = = -->
     <link rel="shortcut icon" href="img/favicon.jpg">
     <!-- = = = = CSS = = = = -->
-    <link rel="stylesheet"    href="css/bootstrap.min.css">
-    <link rel="stylesheet"    href="css/bootstrap-tour.min.css">    
+    <link rel="stylesheet"    href="css/bootstrap.min.css">  
     <link rel="stylesheet"    href="css/font-awesome.min.css">
     <link rel="stylesheet"    href="css/lightbox.css">
     <link rel="stylesheet"    href="css/sidebar.css">
@@ -68,7 +67,7 @@
             <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
                 <!-- Modal TERMINOS DE USO -->
-                <div class="modal fade" id="condicionesUso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal" id="condicionesUso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -124,26 +123,7 @@
                     <a href="index.html" class="homeBtn">
                         <i class="fa fa-home"></i>
                     </a>
-                                                    <!-- EMAIL -->
-
-<!--                     <a href="http://micorreo.uat.edu.mx/Paginas/bienvenida.aspx" class="emailBtn mar-l-36 hidden-xs" target="_blank">
-                        <i class="fa fa-envelope"></i>
-                    </a> -->
-
-                                                    <!-- # -->
-                    <a href="" class="hidden-xs">
-                        
-                    </a>
-                                                    <!-- # -->
-
-                    <a href="" class="hidden-xs">
-                        
-                    </a> 
-
-                                                    <!-- # -->
-                    <a href="" class="hidden-xs">
-                        
-                    </a>                 
+              
 
 
 
@@ -155,7 +135,7 @@
                                 <p class="nombre">Fernando Saldaña <i class="fa fa-chevron-down"></i></p>
                             </button>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href=""><i class="fa fa-file-text-o"></i>Mis Datos</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="mis_datos.html"><i class="fa fa-file-text-o"></i>Mis Datos</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
@@ -322,7 +302,6 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightbox.min.js"></script>
-<script src="js/tour.js"></script>
 <!-- Menu Toggle Script -->
 <script>
 $("#menu-toggle").click(function(e) {
@@ -330,15 +309,7 @@ $("#menu-toggle").click(function(e) {
     $("#wrapper").toggleClass("toggled");
  });
 </script>
-<!-- ToolTips Script -->
 
-<script type="text/javascript">
-$(document).ready(function() {
-    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-});
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
 </script>                       
 </body>
 </html>
