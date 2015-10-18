@@ -47,13 +47,13 @@
                 <ul id="navSide">
                     <li><p class="fb">PRINCIPAL</p></li>                  
                     <li><a href="plan_estudios.html">Plan de Estudios <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li><a href="">Kardéx <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li><a href="">Mis Grupos <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li><a href="">Reinscripción <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li><a href="mi_horario.html">Mi Horario<i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li><a href="">Calificaciones Finales <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="kardex.html">Kardéx <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="mis_grupos.html">Mis Grupos <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="reinscripcion.html">Reinscripción <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="mi_horario.html">Mi Horario <i class="fa fa-angle-right pull-right"></i></a></li>
                     <li><a href="evaluacion_docente.html">Evaluacion Docente <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li><a href="">Calificaciones Parciales <i class="fa fa-angle-right pull-right"></i></a></li>         
+                    <li><a href="calificaciones_parciales.html">Calificaciones Parciales <i class="fa fa-angle-right pull-right"></i></a></li>         
+                    <li><a href="calificaciones_finales.html">Calificaciones Finales <i class="fa fa-angle-right pull-right"></i></a></li>
                 </ul>
 
                     <!-- [ Vista Previa / Terminos de uso] -->
@@ -135,7 +135,7 @@
                                 <p class="nombre">Fernando Saldaña <i class="fa fa-chevron-down"></i></p>
                             </button>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href=""><i class="fa fa-file-text-o"></i>Mis Datos</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1"><i class="fa fa-file-text-o"></i>Mis Datos</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="">x</a></li>
@@ -166,7 +166,7 @@
 
                         <div class="row form-group">
                             <div class="col-md-2">
-                                <label for="ex1">Matricula:</label>
+                                <label>Matricula:</label>
                                 <input class="form-control" id="disabledInput" type="text" placeholder="2141040025" disabled>
                             </div>                                
                         </div>
@@ -174,7 +174,7 @@
 
                         <div class="row form-group">
                             <div class="col-sm-4">
-                                <label for="ex1">Nombres:</label>
+                                <label>Nombres:</label>
                                 <input class="form-control" id="disabledInput" type="text" placeholder="FERNANDO" disabled>
                             </div>
                             <div class="col-sm-4">
@@ -191,7 +191,10 @@
                         <div class="row form-group">
                             <div class="col-sm-3">
                                 <label class="obli" >Fecha de Nacimiento:</label>
-                                <input class="form-control" id="disabledInput" type="text" placeholder="1/Octubre/1995" disabled>                                
+                                <div class="input-group">
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="1/Octubre/1995" disabled>                               
+                                    <span class="input-group-addon"><i class="fa fa-calendar-o"></i></span>                                                                 
+                                </div>                                   
                             </div>
                             <div class="col-sm-3">
                                 <label class="obli" for="ex3">Género:</label>
@@ -240,7 +243,7 @@
 
                         <div class="row form-group">
                             <div class="col-sm-4">
-                                <label >Rfc:</label>
+                                <label>Rfc:</label>
                                 <input class="form-control" id="focusedInput" type="text" placeholder="No Especificado...">                              
                             </div>
                             <div class="col-sm-4">
@@ -277,7 +280,7 @@
 
                         <div class="row">
                             <div class="col-sm-12">
-                                <h4><i>DATOS LABORALES:</i></h4>
+                                <h4 class="bn cw text-center"><i>DATOS LABORALES:</i></h4>
                             </div>
                         </div>
 
@@ -285,9 +288,9 @@
 
                         <div class="row form-group">
                             <div class="col-sm-2">
-                                <label for="ex1">Trabajas:</label><br>
-                                <label class="radio-inline"><input type="radio" name="optradio">Si</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">No</label>
+                                <label>Trabajas:</label><br>
+                                <label class="radio-inline"><input type="radio" name="optradio-1">Si</label>
+                                <label class="radio-inline"><input type="radio" name="optradio-1" checked="">No</label>
                             </div>
                             <div class="col-sm-5">
                                 <label for="ex2">Empresa:</label>
@@ -301,22 +304,22 @@
 
                         <div class="row form-group">
                             <div class="col-sm-3">
-                                <label for="ex1">¿Financia sus Estudios?:</label><br>
-                                <label class="radio-inline"><input type="radio" name="optradio">Si</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">No</label>
+                                <label class="obli">Financia sus Estudios:</label><br>
+                                <label class="radio-inline"><input type="radio" name="optradio-2">Si</label>
+                                <label class="radio-inline"><input type="radio" name="optradio-2" checked="">No</label>
                             </div>
                             <div class="col-sm-3">
-                                <label for="ex1">Toefl:</label><br>
-                                <label class="radio-inline"><input type="radio" name="optradio">Si</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">No</label>
+                                <label class="obli">Toefl:</label><br>
+                                <label class="radio-inline"><input type="radio" name="optradio-3">Si</label>
+                                <label class="radio-inline"><input type="radio" name="optradio-3" checked="">No</label>
                             </div>
                             <div class="col-sm-3">
-                                <label for="ex1">¿Hijos menores de 5 años?:</label><br>
-                                <label class="radio-inline"><input type="radio" name="optradio">Si</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">No</label>
+                                <label class="obli">Hijos menores de 5 años:</label><br>
+                                <label class="radio-inline"><input type="radio" name="optradio-4">Si</label>
+                                <label class="radio-inline"><input type="radio" name="optradio-4" checked="">No</label>
                             </div>
                             <div class="col-sm-3">
-                                <label for="ex3">Idioma Extra:</label>
+                                <label class="obli" for="ex3">Idioma Extra:</label>
                                 <select class="form-control" id="sel1">
                                     <option>INGLES</option>
                                     <option>OTRO</option>
@@ -328,12 +331,12 @@
 
                         <div class="row form-group">
                             <div class="col-sm-2">
-                                <label>Discapacitado:</label><br>
-                                <label class="radio-inline"><input type="radio" name="optradio">Si</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">No</label>
+                                <label class="obli">Discapacitado:</label><br>
+                                <label class="radio-inline"><input type="radio" name="optradio-5">Si</label>
+                                <label class="radio-inline"><input type="radio" name="optradio-5" checked="">No</label>
                             </div>
                             <div class="col-sm-6">
-                                <label for="ex3">Correo Electronico Alterno:</label>
+                                <label for="ex3"></label>
                                 <select class="form-control" id="sel1">
                                     <option>-SELECCIONE-</option>
                                     <option>OTRO</option>
@@ -341,16 +344,42 @@
                                     <option>OTRO</option>
                                     <option>OTRO</option>
                                 </select>                          
-                            </div>                                                                                                                                              
+                            </div>                                                                                                                                         
                         </div> 
 
+                        <div class="row form-group">
+                            <div class="col-sm-3">
+                                <label class="obli">Habla alguna lengua indigena:</label><br>
+                                <label class="radio-inline"><input type="radio" name="optradio-6">Si</label>
+                                <label class="radio-inline"><input type="radio" name="optradio-6" checked="">No</label>
+                            </div>                                                                                                                                           
+                        </div>
 
+                        <div class="row form-group">
+                            <div class="col-sm-2">
+                                <label class="obli">Tipo de financiamiento de estudios:</label><br>
+                                <label class="radio-inline"><input type="radio" name="optradio-7">Si</label>
+                                <label class="radio-inline"><input type="radio" name="optradio-7" checked="">No</label>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="ex3"></label>
+                                <select class="form-control" id="sel1">
+                                    <option>-SELECCIONE-</option>
+                                    <option>OTRO</option>
+                                    <option>OTRO</option>
+                                    <option>OTRO</option>
+                                    <option>OTRO</option>
+                                </select>                          
+                            </div>                                                                                                                                         
+                        </div>
 
+<br>
 
-
-
-
-
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="bn cw text-center"><i>DOMICILIO:</i></h4>
+                            </div>
+                        </div>
 
 
 

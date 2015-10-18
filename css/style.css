@@ -6,54 +6,6 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
-/*================================================
-					BOOTSTRAP
-  ================================================*/
-
-/*--tabs & accordions--*/
-.nav-tabs, .panel-heading{
-	background-color: #D1DADE;
-	border:none;}
-/*Tamaño de párrafo*/
-.tab-content p, .panel-body p{
-	font-size: 13px;}
-/*Tamaño y color*/
-.nav-tabs > li > a,.panel-title > a{
-	line-height: 22px;
-	font-size: 13.5px;text-decoration: none;
-	display: block}
-/*Tabs*/
-.nav-tabs > li	{border-bottom:none;}
-.nav-tabs > li > a{
-	margin: 0px;
-	border-radius: 0px;
-	color:#8E9AA2;}
-.nav-tabs > li > a:hover{border:1px solid transparent;
-	background-color: #f2f3f4;
-	color:#485459;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;}
-.tab-content{
-	background-color: white;
-	padding:15px 15px 15px 15px;
-	min-height: 300px;}
-/*Accordions*/
-.panel{
-	border:none;
-	box-shadow: none;}
-/*Cambia el icono al abrir un accordion*/
-.panel-title > a{
-	color:#485459}
-.panel-title > a:after {
-    font-family: 'FontAwesome';
-    content:"\f056";
-    float:right;}
-.panel-title > a.collapsed{color:#8E9AA2}
-.panel-title > a.collapsed:after {
-    content:"\f055";
-    color:#8E9AA2;}
 
 /*================================================
 					TIPOGRAFIA

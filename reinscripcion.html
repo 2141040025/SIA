@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="img/favicon.jpg">
     <!-- = = = = CSS = = = = -->
     <link rel="stylesheet"    href="css/bootstrap.min.css">
-    <link rel="stylesheet"    href="css/bootstrap-tour.min.css">
     <link rel="stylesheet"    href="css/font-awesome.min.css">
     <link rel="stylesheet"    href="css/lightbox.css">
     <link rel="stylesheet"    href="css/sidebar.css">
@@ -30,17 +29,13 @@
             <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
             <div id="sidebar-wrapper">
 
-
                     <!-- [ Header ] -->                            
                 <div id="headerSide">
                     <img class="logo" src="img/uat1.png" width="140">
                 </div>
 
-
-
-
                     <!-- [ Porfile ] -->                            
-                <div id="userSide" class="tour-002">
+                <div id="userSide">
                     <a href="img/thumb.jpg" data-lightbox="perfil">
                         <img class="img-circle mar-b-6" src="img/thumb.jpg" width="90" height="90">
                     </a>
@@ -48,46 +43,28 @@
                     <p class="matricula">2141040025</p>
                 </div>
 
-
-
-
                     <!-- [ Navigation ] -->                            
-                <ul id="navSide" class="tour-001">
+                <ul id="navSide">
                     <li><p class="fb">PRINCIPAL</p></li>                  
-                    <li class="tour-001-1"><a href="plan_estudios.html">Plan de Estudios <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li class="tour-001-2"><a href="kardex.html">Kardéx <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li class="tour-001-3"><a href="mis_grupos.html">Mis Grupos <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li class="tour-001-4"><a href="reinscripcion.html">Reinscripción <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li class="tour-001-5"><a href="mi_horario.html">Mi Horario <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li class="tour-001-7"><a href="evaluacion_docente.html">Evaluacion Docente <i class="fa fa-angle-right pull-right"></i></a></li>
-                    <li class="tour-001-8"><a href="calificaciones_parciales.html">Calificaciones Parciales <i class="fa fa-angle-right pull-right"></i></a></li>         
-                    <li class="tour-001-6"><a href="calificaciones_finales.html">Calificaciones Finales <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="plan_estudios.html">Plan de Estudios <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="kardex.html">Kardéx <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="mis_grupos.html">Mis Grupos <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li class="active"><a>Reinscripción</a></li>
+                    <li><a href="mi_horario.html">Mi Horario <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="evaluacion_docente.html">Evaluacion Docente <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="calificaciones_parciales.html">Calificaciones Parciales <i class="fa fa-angle-right pull-right"></i></a></li>         
+                    <li><a href="calificaciones_finales.html">Calificaciones Finales <i class="fa fa-angle-right pull-right"></i></a></li>
                 </ul>
-
-
-
 
                     <!-- [ Vista Previa / Terminos de uso] -->
                 <div id="footSide" class="hidden-xs">
                     <div class="fastnav pull-right">
-                        <a data-toggle="modal" data-target="#condicionesUso"><i class="fa fa-info-circle"></i></a>                     
+                        <a class="terminoUso" data-toggle="modal" data-target="#condicionesUso"><i class="fa fa-info-circle"></i></a>                      
                     </div>
                 </div>                   
 
             </div>
             <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
-
-
-
-
-
-
-
-
-
-
-
-
 
                 <!-- Modal TERMINOS DE USO -->
                 <div class="modal" id="condicionesUso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -131,27 +108,27 @@
 
 
 
+
             <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
             <div id="page-content-wrapper">
 
                     <!-- [ Header ] -->
                 <div id="principalHeader">
                                                     <!-- MenuTogle -->
-                    <a href="#menu-toggle" id="menu-toggle" class="menuBars tour-003">
+                    <a href="#menu-toggle" id="menu-toggle" class="menuBars">
                         <i class="fa fa-bars"></i>
                     </a>
                                                     <!-- HOME -->
-                    <a href="" class="homeBtn tour-004">
+                    <a href="index.html" class="homeBtn">
                         <i class="fa fa-home"></i>
                     </a>
-               
-
+                
 
 
 
 
                                                     <!-- PorfilePullRight -->
-                    <div class="userInfo pull-right tour-005">
+                    <div class="userInfo pull-right">
                         <div class="dropdown">
                             <button class="dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
                                 <p class="nombre">Fernando Saldaña <i class="fa fa-chevron-down"></i></p>
@@ -169,110 +146,42 @@
                     </div>
                 </div>
 
-
-
-
-
-                    <!-- [ LANDING MSG ] -->
-                <div id="landing" class="tour-006">
+                    <!-- [ MsgWelcome ] -->
+                <div id="landing">
                     <p class="pull-left cg hidden-xs hidden-sm"><i>LUIS FERNANDO SALDAÑA CARVAJAL <span class="mar-lr-6"><i class="fa fa-angle-right"></i></span> LICENCIATURA EN TECNOLOGIAS DE LA INFORMACIÓN</i></p>
                     <p class="pull-right fl cg hidden-xs hidden-sm">Viernes, 08 de Octubre del 2015</p>
 
                     <div>
-                        <h1 class="text-center">Sistema de Información Académica <br> <span class="fb cy">SIA</span></h1>
-                        <p class="text-center fu">Recibe la mas cordial bienvenida al portal en linea que tiene para ti la Universidad Autonoma de Tamaulipas, con este podrás facilitar tus operaciones desde Internet. <br> <a id="startTour" class="hidden-xs"><i class="fa fa-youtube-play"></i></a></p>
+                        <h1 class="text-center">Reinscripción</h1>
+                        <p class="text-center fu"></p>
                     </div>
                 </div>
-
-
-
-
-
-
-
 
                     <!-- [ Content ] -->
-                <div class="container-fluid tour-007">
-
-                                    <!-- [ Form ] -->
-                    <h3 class="text-center">Mis Carreras</h3>
-                    <div class="carreraForm">
-                        <div class="row">
-                            <div class="col-md-12 th"><h4 class="pad-l-6 cw by text-center">Licenciatura en Tecnologias de la Información</h4></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2"><h4 class="fu cy">Campus:</h4></div>
-                            <div class="col-md-3"><h4 class="fi">VICTORIA</h4></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2"><h4 class="fu cy">DES:</h4></div>
-                            <div class="col-md-6"><h4 class="fi">FACULTAD DE COMERCIO Y ADMINISTRACION VICTORIA</h4></div>
-                        </div>                        
-                        <div class="row">
-                            <div class="col-md-2"><h4 class="fu cy">Ciclo Activo:</h4></div>
-                            <div class="col-md-2"><h4 class="fi">2015 - 3 OTOÑO</h4></div>
-                            <div class="col-md-2"><h4 class="fu cy">Grado Base:</h4></div>
-                            <div class="col-md-2"><h4 class="fi">3</h4></div>                            
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2"><h4 class="fu cy">Carrera:</h4></div>
-                            <div class="col-md-6"><h4 class="fi">LICENCIATURA EN TECNOLOGIAS DE LA INFORMACIÓN</h4></div>
-                            <div class="col-md-2"><h4 class="fu cy">Plan:</h4></div>
-                            <div class="col-md-2"><h4 class="fi">COMPETENCIAS</h4></div>                             
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2"><h4 class="fu cy">Cred. Totales:</h4></div>
-                            <div class="col-md-2"><h4 class="fi">300</h4></div>
-                            <div class="col-md-2"><h4 class="fu cy">Cred. Aprobados:</h4></div>
-                            <div class="col-md-2"><h4 class="fi">88 (29.33) %</h4></div>
-                            <div class="col-md-2"><h4 class="fu cy">Cred. por Aprobar:</h4></div>
-                            <div class="col-md-2"><h4 class="fi">212</h4></div>                                                           
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2"><h4 class="fu cy">Prom. General:</h4></div>
-                            <div class="col-md-2"><h4 class="fi">9.00</h4></div>
-                            <div class="col-md-2"><h4 class="fu cy">Situacion:</h4></div>
-                            <div class="col-md-6"><h4 class="fi cr">REGULARES</h4></div>                            
-                        </div>                                                
-                    </div>
-
-
-
-
-
-
-
-
+                <div class="container-fluid">
 
                 </div>
-            </div>
+
+
+
+
+
+
+
+
             <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
-
-
-
-
-
-
-
-
-
-
-
-
+            </div>
         </div>
+
+
+
+
 
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightbox.min.js"></script>
-<script src="js/bootstrap-tour.min.js"></script>
-<script src="js/tour.js"></script>
-
-
-
-
-
 
 <!-- Menu Toggle Script -->
 <script>
@@ -281,8 +190,6 @@ $("#menu-toggle").click(function(e) {
     $("#wrapper").toggleClass("toggled");
  });
 </script>
-
-
-
+                      
 </body>
 </html>
