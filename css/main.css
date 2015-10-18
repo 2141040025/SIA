@@ -41,6 +41,10 @@ a{
 
 /*-----------------------------------------------------------------------*/
 
+.wrapper-mar{
+	margin: 0px auto 0px auto;
+	max-width: 1000px;
+}
 .active{
 	cursor: default;
 	background-color: #2C2F35;

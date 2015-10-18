@@ -228,8 +228,10 @@ p,
 .block{
 	display:block;
 }
-
-
+/*Quita padding de las col- (aplicar en el nivel de ROW)*/
+.no-pad [class*="col-"] {
+    padding: 0;
+}
 
 
 /*-----CUSTOM SCROLLBAR---*/
@@ -252,4 +254,3 @@ p,
 ::-webkit-scrollbar-thumb:window-inactive {
     background: #e44f25; 
 }
-*/
