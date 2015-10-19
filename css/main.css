@@ -60,6 +60,10 @@ a{
 	color: #0090D9
 }
 
+.btn-min{
+	width: 110px;
+}
+
 .btn:hover{
 	color: white;
 }
@@ -363,12 +367,12 @@ a{
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-	background-color: #a4b3d6;
+	background-color: #B3E283;
 	color:white;
 }
 
 .table-hover > tr{
-	background-color: #a4b3d6;
+	background-color: #B3E283;
 	color: white;
 }
 
@@ -384,7 +388,8 @@ a{
 	float: left;
 }
 .terminada{
-	background-color: #a4b3d6;
+	cursor: default;
+	background-color: #B3E283;
 	color: white;
 }
 
@@ -418,7 +423,6 @@ a{
 .container-fluid > .evaluacionText a{
 	text-decoration: none;
 	text-align: center;
-	width: 150px;
 	height: 30px;
 	line-height: 30px;
 	background-color: #f9b775;
@@ -452,7 +456,7 @@ a{
 	font-weight: 300;
 }
 .container-fluid > form > .form-group > div > .obli{
-	color: #ED8D84;
+	color: #0090D9;
 	font-style: italic;
 }
 

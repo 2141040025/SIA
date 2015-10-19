@@ -75,21 +75,21 @@ p,
   ================================================*/
 
 /*Backgrounds*/
-.bn{background-color: #FAA652;}
+.bn{background-color: #f9b775;}
 .br{background-color:#F35958;}
 .bdg{background-color:#383838;}
 .bc{background-color:#F8F8EB;}
 .bb{background-color: #0090D9}
-.by{background-color: #FAA652}
+.by{background-color: #F9B775}
 .bg{background-color: #646D78}
 /*Color[Text]*/
-.cn{color: #FAA652}
+.cn{color: #f9b775}
 .cr{color:#F45C51;}
 .cdg{color:#383838;}
 .cc{color:#F8F8EB;}
 .cw{color: #ffffff;}
 .cb{color: #0090D9}
-.cy{color: #FAA652}
+.cy{color: #F9B775}
 .cg{color:#646D78;}
 
 /*================================================
@@ -233,7 +233,13 @@ p,
     padding: 0;
 }
 
+.pointer{
+	cursor: pointer;
+}
 
+.center{
+	margin: auto;
+}
 /*-----CUSTOM SCROLLBAR---*/
 /*::-webkit-scrollbar{
      width: 12px;

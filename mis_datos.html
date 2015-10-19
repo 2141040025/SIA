@@ -154,15 +154,26 @@
 
                     <div>
                         <h1 class="text-center">Mis Datos</h1>
-                        <p class="text-center fu">Llena tus datos y guardalos, solo los campos en rojo y cursiva son obligatorios</p>
+                        <p class="text-center fu">Llena tus datos y guardalos, solo los campos en azul son obligatorios</p>
                     </div>
                 </div>
 
                     <!-- [ Content ] -->
                 <div class="container-fluid">
+                                    <!-- IMPRESORA  -->
+                    <div class="hidden-xs hidden-sm text-right wrapper-mar">
+                            <br>
+                            <a href="" class="print mar-r-18"><i class="fa fa-print"></i></a>                                    
+                    </div>
 
                     <h3 class="text-center">Datos Alumno</h3>
                     <form role="form">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="bn cw text-center"><i>ALUMNO:</i></h4>
+                            </div>
+                        </div>
 
                         <div class="row form-group">
                             <div class="col-md-2">
@@ -344,16 +355,14 @@
                                     <option>OTRO</option>
                                     <option>OTRO</option>
                                 </select>                          
-                            </div>                                                                                                                                         
-                        </div> 
-
-                        <div class="row form-group">
-                            <div class="col-sm-3">
+                            </div>
+                            <div class="col-sm-4">
                                 <label class="obli">Habla alguna lengua indigena:</label><br>
                                 <label class="radio-inline"><input type="radio" name="optradio-6">Si</label>
                                 <label class="radio-inline"><input type="radio" name="optradio-6" checked="">No</label>
-                            </div>                                                                                                                                           
-                        </div>
+                            </div>                                                                                                                                                                       
+                        </div> 
+
 
                         <div class="row form-group">
                             <div class="col-sm-2">
@@ -381,16 +390,165 @@
                             </div>
                         </div>
 
+                        <div class="text-right"><a href="" class="print mar-r-18"><i class="fa fa-plus-square"></i></a></div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-3">
+                                <label class="obli">País:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="MÉXICO" disabled>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Estado:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="TAMAULIPAS" disabled>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Municipio:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="VICTORIA" disabled>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Localidad:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="CIUDAD VICTORIA" disabled>
+                            </div>                            
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-6">
+                                <label class="obli">Calle:</label>
+                                <input class="form-control" id="focusedInput" type="text" placeholder="No Especificado...">                              
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Numero Exterior:</label>
+                                <input class="form-control" id="focusedInput" type="text" placeholder="No Especificado...">                              
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="">Numero Interior:</label>
+                                <input class="form-control" id="focusedInput" type="text" placeholder="No Especificado...">                              
+                            </div>                                                                                   
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-6">
+                                <label class="obli">Colonia:</label>
+                                <input class="form-control" id="focusedInput" type="text" placeholder="No Especificado...">                              
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Codigo Postal:</label>
+                                <input class="form-control" id="focusedInput" type="text" placeholder="No Especificado...">                              
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Telefono de Casa:</label>
+                                <input class="form-control" id="focusedInput" type="text" placeholder="No Especificado...">                              
+                            </div>                                                                                   
+                        </div>
 
 
+<br>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="bn cw text-center"><i>ESCUELA DE PROCEDENCIA:</i></h4>
+                            </div>
+                        </div>
+
+                        <div class="text-right"><a href="" class="print mar-r-18"><i class="fa fa-plus-square"></i></a></div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-3">
+                                <label class="">Nivel:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="BACHILLERATO" disabled>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="">País:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="MÉXICO" disabled>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="">Entidad Federativa:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="TAMAULIPAS" disabled>
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="">Municipio:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="VICTORIA" disabled>
+                            </div>                            
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-4">
+                                <label class="">Localidad:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="ABELARDO OZUNA" disabled>
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="">Escuela de Procedencia:</label>
+                                <input class="form-control" id="disabledInput" type="text" placeholder="INSTITUTO BLAHBLAHBLAH DE BLAHULIPAS" disabled>                           
+                            </div>                                                                                 
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-3">
+                                <label class="obli">Promedio:</label>
+                                <input class="form-control" id="focusedInput" type="text" value="10.00">                              
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Fecha Ingreso:</label>
+                                <div class="input-group">
+                                    <input class="form-control" id="disabledInput" type="text" value="13/Octubre/2011">                               
+                                    <span class="input-group-addon"><i class="fa fa-calendar-o"></i></span>                                                                 
+                                </div>                            
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="obli">Fecha Egreso:</label>
+                                <div class="input-group">
+                                    <input class="form-control" id="disabledInput" type="text" value="19/Octubre/2013" >                               
+                                    <span class="input-group-addon"><i class="fa fa-calendar-o"></i></span>                                                                 
+                                </div>                             
+                            </div>                                                                                   
+                        </div>
 
 
+<br>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="bn cw text-center"><i>PADRE(S) O TUTOR(ES):</i></h4>
+                            </div>
+                        </div>
+
+                        <div class="text-right"><a href="" class="print mar-r-18"><i class="fa fa-plus-square"></i></a></div>
 
 
+                        <div class="row form-group">
+                            <div class="col-sm-4">
+                                <label>Nombre:</label>
+                                <input class="form-control" id="focusedInput" type="text" disabled="" placeholder="LUIS">                              
+                            </div>
+                            <div class="col-sm-4">
+                                <label>Apellido Paterno:</label>
+                                <input class="form-control" id="disabledInput" type="text" disabled="" placeholder="BLAHBLAHBLAHBLAH">                               
+                            </div>
+                            <div class="col-sm-4">
+                                <label>Apellido Materno:</label>
+                                <input class="form-control" id="disabledInput" type="text" disabled="" placeholder="BLAHBLAH" >                               
+                            </div>                                                                                   
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-4">
+                                <label>Nombre:</label>
+                                <input class="form-control" id="focusedInput" type="text" disabled="" placeholder="CLAUDIA">                              
+                            </div>
+                            <div class="col-sm-4">
+                                <label>Apellido Paterno:</label>
+                                <input class="form-control" id="disabledInput" type="text" disabled="" placeholder="BLAHBLAHBLAHBLAH">                               
+                            </div>
+                            <div class="col-sm-4">
+                                <label>Apellido Materno:</label>
+                                <input class="form-control" id="disabledInput" type="text" disabled="" placeholder="BLAHBLAH" >                               
+                            </div>                                                                                   
+                        </div>
                     </form>
-
-
-
+<br>
+<br>
+<br>
+                        <div class="text-center"><a href="index.html" class="btn bn cw btn-min">Guardar</a></div>
 
                 </div><!-- Fin content -->
             </div><!-- Fin page-content-wrapper -->
