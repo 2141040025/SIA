@@ -23,7 +23,7 @@ var tour = new Tour({
             {
               element: ".tour-001-2",
               title: "Kardex",
-              content: "...",
+              content: "Aqui se registran las calificaciones que se van obteniendo durante el ciclo-periodo escolar.",
               placement: "right"
             },
 

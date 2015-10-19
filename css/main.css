@@ -39,6 +39,10 @@ a{
 	text-decoration: none;
 }
 
+hr{
+	background-color: #E5E9EC;
+	height: 2.5px;
+}
 /*-----------------------------------------------------------------------*/
 
 .wrapper-mar{
