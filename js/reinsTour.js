@@ -30,18 +30,18 @@ var tour = new Tour({
   },
 
   {
+    element: ".tour-005",
+    title: "Creditos",
+    content: "Creditos de la materia.",
+    placement: "top"
+  },
+  {
     element: ".tour-004",
     title: "Oportunidades",
     content: "Las asignaturas con una oportunidad de inscripción o examen seran señaladas aquí.",
     placement: "top"
   },
 
-  {
-    element: ".tour-005",
-    title: "...",
-    content: "...",
-    placement: "top"
-  },
   {
     element: ".tour-006",
     title: "Plan de Estudios",
