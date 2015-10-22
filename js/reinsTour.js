@@ -25,7 +25,7 @@ var tour = new Tour({
   {
     element: ".tour-003",
     title: "Nombre de la Materia",
-    content: "",
+    content: "Materia a seleccionar",
     placement: "top"
   },
 

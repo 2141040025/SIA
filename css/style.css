@@ -260,3 +260,7 @@ p,
 ::-webkit-scrollbar-thumb:window-inactive {
     background: #e44f25; 
 }
+*/
+.clear{
+	clear: both;
+}
