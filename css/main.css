@@ -12,7 +12,7 @@ Rojo: ED8D84;
 
 /*-----------------------------------------------------------------------*/
 
-::-webkit-scrollbar{
+/*::-webkit-scrollbar{
     width: 12px;
 }
 ::-webkit-scrollbar-track{
@@ -24,7 +24,7 @@ Rojo: ED8D84;
 
 ::-webkit-scrollbar-thumb {
     background: #BCBCBC; 
-}
+}*/
 
 /*-----------------------------------------------------------------------*/
 

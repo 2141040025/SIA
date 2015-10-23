@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Sistema de Información Académica</title>
+    <!-- = = = Viewport = = = -->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- = = = FAVICON = = = -->
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <!-- = = = = CSS = = = = -->
+    <link rel="stylesheet"    href="css/bootstrap.min.css">
+    <link rel="stylesheet"    href="css/font-awesome.min.css">
+    <link rel="stylesheet"    href="css/lightbox.css">
+    <link rel="stylesheet"    href="css/sidebar.css">
+    <link rel="stylesheet"    href="css/style.css">
+    <link rel="stylesheet"    href="css/main.css">
+</head>
+
+<body>
+        <div id="wrapper">
+
+
+
+
+
+
+
+
+            <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+            <div id="sidebar-wrapper">
+
+                    <!-- [ Header ] -->                            
+                <div id="headerSide">
+                    <img class="logo" src="img/uat1.png" width="140">
+                </div>
+
+                    <!-- [ Porfile ] -->                            
+                <div id="userSide">
+                    <a href="img/thumb.jpg" data-lightbox="perfil">
+                        <img class="img-circle mar-b-6" src="img/thumb.jpg" width="90" height="90">
+                    </a>
+                    <p class="nombre">Fernando Saldaña</p>
+                    <p class="matricula">2141040025</p>
+                </div>
+
+                    <!-- [ Navigation ] -->                            
+                <ul id="navSide">
+                    <li><p class="fb">PRINCIPAL</p></li>                  
+                    <li><a href="plan_estudios.html">Plan de Estudios <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="kardex.html">Kardéx <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="mis_grupos.html">Mis Grupos <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="reinscripcion.html">Reinscripción <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="mi_horario.html">Mi Horario <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="evaluacion_docente.html">Evaluacion Docente <i class="fa fa-angle-right pull-right"></i></a></li>
+                    <li><a href="calificaciones_parciales.html">Calificaciones Parciales <i class="fa fa-angle-right pull-right"></i></a></li>         
+                    <li class="active"><a>Calificaciones Finales </a></li> 
+                </ul>
+
+                    <!-- [ Vista Previa / Terminos de uso] -->
+                <div id="footSide" class="hidden-xs">
+                    <div class="fastnav pull-right">
+                        <a class="terminoUso" data-toggle="modal" data-target="#condicionesUso"><i class="fa fa-info-circle"></i></a>                      
+                    </div>
+                </div>                   
+
+            </div>
+            <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+                <!-- Modal TERMINOS DE USO -->
+                <div class="modal" id="condicionesUso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title" id="myModalLabel">Términos de uso</h2>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-responsive img-center" src="img/modalUat.jpg" width="250"><br>
+                        <p class="text-justify">
+                            Mediante este aviso, UNIVERSIDAD AUTONOMA DE TAMAULIPAS (en adelante UAT), con domicilio en 8 Matamoros, Edificio de Rectoría, zona centro, C.P. 87000, Cd. Victoria, Tamaulipas México, informa a los usuarios del sitio de Inscripciones en Línea acerca de su política de protección de datos de carácter personal (en adelante, "los Datos del alumno") que contiene los términos en los que se tratarán los datos personales. 
+                            <br><br>  
+                            La UAT se reserva el derecho a modificar, y en su debido caso, anunciará en esta página los cambios introducidos. Ciertos servicios prestados en el Portal, pueden contener condiciones particulares con previsiones específicas en materia de protección de Datos Personales. Los Datos Personales serán objeto de tratamiento automatizado e incorporados a los correspondientes ficheros automatizados de datos de carácter personal de los que la UAT será titular y responsable. UAT le proporciona a los Usuarios los recursos técnicos adecuados para que, con carácter previo, puedan acceder a este aviso sobre la Política de Privacidad o a cualquier otra información relevante y puedan prestar su consentimiento, a fin de que UAT proceda al tratamiento automatizado de sus Datos Personales. 
+                            <br><br>
+                            El Usuario garantiza que los Datos Personales facilitados a UAT son veraces, y se hace responsable de comunicar a ésta cualquier modificación en los mismos, de la misma manera se compromete a utilizar el servicio de conformidad con la ley, así como con la moral y buenas costumbres generalmente aceptadas y el orden público.
+                            <br><br>
+                            En particular, el Usuario se compromete a utilizar el servicio prestado de forma correcta, asimismo, abstenerse de utilizarlo con fines o efectos ilícitos, inutilizar, sobrecargar o deteriorar dicho servicio, los equipos informáticos (hardware y software), así como también los documentos, archivos y toda clase de contenidos almacenados en sus equipos informáticos, o impedir la normal utilización de dicho servicio, equipos informáticos y documentos, archivos y contenidos por parte de los demás Usuarios y de otros usuarios del Sistema de Inscripciones en Línea. UAT ha adoptado los niveles de seguridad de protección de los Datos Personales legalmente requeridos, y procura instalar aquellos otros medios y medidas técnicas adicionales a su alcance, para evitar la pérdida, mal uso, alteración, acceso no autorizado y robo de los Datos Personales facilitados a UAT. 
+                            <br><br>
+                            En particular, UAT utiliza sistemas de seguridad, a través de sistemas de certificados y cifrado, permiten comprobar la autenticidad del Portal SIIA desde donde se recaban sus Datos Personales, asimismo, como la integridad y confidencialidad de los mismos durante su transmisión. Ello no obstante, el Usuario debe ser consciente de que las medidas de seguridad en Internet no son inexpugnables.
+                            <br><br> 
+                            Para mayor información puedes comunicarte al telefono <span class="fb">52 + 834 31 8 18 00</span> o si lo prefieres consulta los manuales en su modulo correspondiente.
+                        </p>
+                        <br><br><br>
+                        <p class="text-center">Universidad Autónoma de Tamaulipas 2015</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a type="button" class="btn bn cw" data-dismiss="modal">Cerrar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+
+
+
+
+
+
+
+
+
+
+
+            <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+            <div id="page-content-wrapper">
+
+                    <!-- [ Header ] -->
+                <div id="principalHeader">
+                                                    <!-- MenuTogle -->
+                    <a href="#menu-toggle" id="menu-toggle" class="menuBars">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                                                    <!-- HOME -->
+                    <a href="index.html" class="homeBtn">
+                        <i class="fa fa-home"></i>
+                    </a>
+                
+
+
+
+
+                                                    <!-- PorfilePullRight -->
+                    <div class="userInfo pull-right">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                <p class="nombre">Fernando Saldaña <i class="fa fa-chevron-down"></i></p>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="mis_datos.html"><i class="fa fa-file-text-o"></i>Mis Datos</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href=""><i class="fa fa-sign-out"></i> Cerrar Sesión</a></li>
+                            </ul>
+                            <img class="img-circle" src="img/thumb.jpg" width="35" height="35">
+                        </div>  
+                    </div>
+                </div>
+
+                    <!-- [ MsgWelcome ] -->
+                <div id="landing">
+                    <p class="pull-left cg hidden-xs hidden-sm"><i>LUIS FERNANDO SALDAÑA CARVAJAL <span class="mar-lr-6"><i class="fa fa-angle-right"></i></span> LICENCIATURA EN TECNOLOGIAS DE LA INFORMACIÓN</i></p>
+                    <p class="pull-right fl cg hidden-xs hidden-sm">Viernes, 08 de Octubre del 2015</p>
+
+                    <div>
+                        <h1 class="text-center">Calificaciones Finales</h1>
+                        <p class="text-center fu">Recuerda que para poder empezar tu inscripción es importante evaluar cada uno de los profesores que te impartieron clases en las materias que cursaste el ciclo escolar pasado. Una vez que terminaste de realizar tu evaluación docente, presiona continuar, para empezar tu trámite de inscripción. <br><a href="calificaciones_finales.html" class="print"><i class="fa fa-arrow-circle-left"></i></a></p></p>
+                    </div>
+                </div>
+
+                    <!-- [ Content ] -->
+                <div class="container-fluid">
+                            <!-- RESPONSIVE -->
+                    <p class="text-center fu hidden-md hidden-lg cn">Desliza tu dedo sobre la tabla para ver el contenido <br> <i class="fa fa-angle-double-left mar-r-6"></i><i class="fa fa-hand-pointer-o"></i><i class="fa fa-angle-double-right mar-l-6"></i></p>
+
+
+                    <h3 class="text-center">
+                        Materia: COMUNICACION INTERNACIONAL 
+                        <span class="mar-r-18"></span> 
+                        Profesor: MORA VAZQUEZ ALBERTO 
+                        <br>
+                        <i class="fu">    
+                            1.- No satisfactorio<i class="mar-lr-6 fa fa-angle-right"></i>
+                            2.- Abajo del nivel medio<i class="mar-lr-6 fa fa-angle-right"></i>
+                            3.- Nivel medio<i class="mar-lr-6 fa fa-angle-right"></i>
+                            4.- Arriba del nivel medio<i class="mar-lr-6 fa fa-angle-right"></i>
+                            5.- Notable, excelente                   
+                        </i>
+                    </h3>
+                    <div class="tablas table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead class="bn cw fl">
+                              <tr>
+                              
+                                <th>Pregunta</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                                <th>6</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>AYUDA A LOS ESTUDIANTES A DESARROLLAR HABILIDADES EN EL USO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN PARA INVESTIGAR INFORMACIÓN DISPONIBLE EN LA WEB</td>
+                                <td><label><input type="radio" name="optradio-1"></label></td>
+                                <td><label><input type="radio" name="optradio-1"></label></td>
+                                <td><label><input type="radio" name="optradio-1"></label></td>
+                                <td><label><input type="radio" name="optradio-1"></label></td>
+                                <td><label><input type="radio" name="optradio-1"></label></td>
+                                <td><label><input type="radio" name="optradio-1"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>DIVERSIFICA LAS OPCIONES DE COMUNICACIÓN Y COLABORACIÓN UTILIZANDO LAS TECNOLOGÍAS DE LA INFORMACIÓN</td>
+                                <td><label><input type="radio" name="optradio-2"></label></td>
+                                <td><label><input type="radio" name="optradio-2"></label></td>
+                                <td><label><input type="radio" name="optradio-2"></label></td>
+                                <td><label><input type="radio" name="optradio-2"></label></td>
+                                <td><label><input type="radio" name="optradio-2"></label></td>
+                                <td><label><input type="radio" name="optradio-2"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>EL CUMPLIMIENTO DEL PROFESOR EN RELACIÓN A LOS ASPECTOS PROGRAMADOS EN EL DESARROLLO DEL CURSO</td>
+                                <td><label><input type="radio" name="optradio-3"></label></td>
+                                <td><label><input type="radio" name="optradio-3"></label></td>
+                                <td><label><input type="radio" name="optradio-3"></label></td>
+                                <td><label><input type="radio" name="optradio-3"></label></td>
+                                <td><label><input type="radio" name="optradio-3"></label></td>
+                                <td><label><input type="radio" name="optradio-3"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>EL RESPETO DEL PROFESOR EN EL TRATO CON LOS ALUMNOS</td>
+                                <td><label><input type="radio" name="optradio-4"></label></td>
+                                <td><label><input type="radio" name="optradio-4"></label></td>
+                                <td><label><input type="radio" name="optradio-4"></label></td>
+                                <td><label><input type="radio" name="optradio-4"></label></td>
+                                <td><label><input type="radio" name="optradio-4"></label></td>
+                                <td><label><input type="radio" name="optradio-4"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>EN GENERAL CONSIDERA QUE EL DESEMPEÑO DEL PROFESOR FUE</td>
+                                <td><label><input type="radio" name="optradio-5"></label></td>
+                                <td><label><input type="radio" name="optradio-5"></label></td>
+                                <td><label><input type="radio" name="optradio-5"></label></td>
+                                <td><label><input type="radio" name="optradio-5"></label></td>
+                                <td><label><input type="radio" name="optradio-5"></label></td>
+                                <td><label><input type="radio" name="optradio-5"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA ASISTENCIA DEL PROFESOR</td>
+                                <td><label><input type="radio" name="optradio-6"></label></td>
+                                <td><label><input type="radio" name="optradio-6"></label></td>
+                                <td><label><input type="radio" name="optradio-6"></label></td>
+                                <td><label><input type="radio" name="optradio-6"></label></td>
+                                <td><label><input type="radio" name="optradio-6"></label></td>
+                                <td><label><input type="radio" name="optradio-6"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA ATENCIÓN QUE PRESTA EL MAESTRO A LAS TAREAS Y TRABAJOS DE LOS ESTUDIANTES</td>
+                                <td><label><input type="radio" name="optradio-7"></label></td>
+                                <td><label><input type="radio" name="optradio-7"></label></td>
+                                <td><label><input type="radio" name="optradio-7"></label></td>
+                                <td><label><input type="radio" name="optradio-7"></label></td>
+                                <td><label><input type="radio" name="optradio-7"></label></td>
+                                <td><label><input type="radio" name="optradio-7"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA CLARIDAD DEL PROFESOR EN LA EXPOSICIÓN DE LOS TEMAS</td>
+                                <td><label><input type="radio" name="optradio-8"></label></td>
+                                <td><label><input type="radio" name="optradio-8"></label></td>
+                                <td><label><input type="radio" name="optradio-8"></label></td>
+                                <td><label><input type="radio" name="optradio-8"></label></td>
+                                <td><label><input type="radio" name="optradio-8"></label></td>
+                                <td><label><input type="radio" name="optradio-8"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA COMUNICACIÓN DEL MAESTRO CON LOS ALUMNOS</td>
+                                <td><label><input type="radio" name="optradio-9"></label></td>
+                                <td><label><input type="radio" name="optradio-9"></label></td>
+                                <td><label><input type="radio" name="optradio-9"></label></td>
+                                <td><label><input type="radio" name="optradio-9"></label></td>
+                                <td><label><input type="radio" name="optradio-9"></label></td>
+                                <td><label><input type="radio" name="optradio-9"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA CORRESPONDENCIA DE LAS ACTIVIDADES DE CLASE CON EL CONTENIDO DE LA MATERIA</td>
+                                <td><label><input type="radio" name="optradio-10"></label></td>
+                                <td><label><input type="radio" name="optradio-10"></label></td>
+                                <td><label><input type="radio" name="optradio-10"></label></td>
+                                <td><label><input type="radio" name="optradio-10"></label></td>
+                                <td><label><input type="radio" name="optradio-10"></label></td>
+                                <td><label><input type="radio" name="optradio-10"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA CORRESPONDENCIA DE LAS EVALUACIONES QUE EL PROFESOR REALIZA CON LOS OBJETIVOS DE PROGRAMA</td>
+                                <td><label><input type="radio" name="optradio-11"></label></td>
+                                <td><label><input type="radio" name="optradio-11"></label></td>
+                                <td><label><input type="radio" name="optradio-11"></label></td>
+                                <td><label><input type="radio" name="optradio-11"></label></td>
+                                <td><label><input type="radio" name="optradio-11"></label></td>
+                                <td><label><input type="radio" name="optradio-11"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA FORMA EN QUE EL PROFESOR DA A CONOCER EL PROGRAMA DE LA MATERIA AL INICIO DEL CURSO</td>
+                                <td><label><input type="radio" name="optradio-12"></label></td>
+                                <td><label><input type="radio" name="optradio-12"></label></td>
+                                <td><label><input type="radio" name="optradio-12"></label></td>
+                                <td><label><input type="radio" name="optradio-12"></label></td>
+                                <td><label><input type="radio" name="optradio-12"></label></td>
+                                <td><label><input type="radio" name="optradio-12"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA IMPARCIALIDAD DEL PROFESOR AL CALIFICAR</td>
+                                <td><label><input type="radio" name="optradio-13"></label></td>
+                                <td><label><input type="radio" name="optradio-13"></label></td>
+                                <td><label><input type="radio" name="optradio-13"></label></td>
+                                <td><label><input type="radio" name="optradio-13"></label></td>
+                                <td><label><input type="radio" name="optradio-13"></label></td>
+                                <td><label><input type="radio" name="optradio-13"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA MANERA COMO EL PROFESOR SATISFACE LAS PREGUNTAS DE LOS ALUMNOS</td>
+                                <td><label><input type="radio" name="optradio-14"></label></td>
+                                <td><label><input type="radio" name="optradio-14"></label></td>
+                                <td><label><input type="radio" name="optradio-14"></label></td>
+                                <td><label><input type="radio" name="optradio-14"></label></td>
+                                <td><label><input type="radio" name="optradio-14"></label></td>
+                                <td><label><input type="radio" name="optradio-14"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>LA PUNTUALIDAD DEL PROFESOR AL INICIAR Y AL TERMINAR LA CLASE</td>
+                                <td><label><input type="radio" name="optradio-15"></label></td>
+                                <td><label><input type="radio" name="optradio-15"></label></td>
+                                <td><label><input type="radio" name="optradio-15"></label></td>
+                                <td><label><input type="radio" name="optradio-15"></label></td>
+                                <td><label><input type="radio" name="optradio-15"></label></td>
+                                <td><label><input type="radio" name="optradio-15"></label></td>
+                              </tr>             
+                              <tr>
+                                <td>PROMUEVE EL ANÁLISIS CRÍTICO Y LA DISCUSIÓN ENTRE LOS ESTUDIANTES MEDIANTE EL EMPLEO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN</td>
+                                <td><label><input type="radio" name="optradio-16"></label></td>
+                                <td><label><input type="radio" name="optradio-16"></label></td>
+                                <td><label><input type="radio" name="optradio-16"></label></td>
+                                <td><label><input type="radio" name="optradio-16"></label></td>
+                                <td><label><input type="radio" name="optradio-16"></label></td>
+                                <td><label><input type="radio" name="optradio-16"></label></td>
+                              </tr>             
+                            </tbody>
+                        </table>
+                    </div>
+
+<br><br><br>
+                        <div class="text-center"><a href="calificaciones_finales.html" class="btn bn cw btn-min"><i class="fa fa-floppy-o mar-r-12"></i>Guardar</a></div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+            <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+            </div>
+        </div>
+
+
+
+
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+ });
+</script>
+                      
+</body>
+</html>
