@@ -1,4 +1,4 @@
-## Propuesta para cambiar la interface del Sistema Integral de Información Académica y Administrativa de la Universidad Autonoma de Tamaulipas.
+## Rediseño de la interface del Sistema Integral de Información Académica y Administrativa
 
 Fernando Saldaña  
 [Ver Proyecto en Github](http://2141040025.github.io/SIA/)  
