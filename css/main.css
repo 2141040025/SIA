@@ -7,6 +7,25 @@ Rojo: ED8D84;
 
 */
 
+
+
+
+/*-----------------------------------------------------------------------*/
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+     box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+}
+::-webkit-scrollbar-track-piece{
+    background:#E9EAED;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BCBCBC; 
+}
+
 /*-----------------------------------------------------------------------*/
 
 body,html{
